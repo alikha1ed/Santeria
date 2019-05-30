@@ -1,0 +1,306 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font: 1em/1.6 "Playfair Display", Arial, sans-serif;
+	letter-spacing: 0.1em;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+
+/* Global */
+
+.container
+{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.button-1
+{
+	width: 30%;
+	height: 40px;
+	color: #fff;
+	background: #000;
+	border: none;
+	font-style: italic;
+}
+
+/* --------------------------- */
+
+/* Header */
+
+#main-header
+{
+	display: flex;
+	justify-content: space-between;
+}
+header
+{
+	min-height: 50px;
+}
+
+header a
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+	font-size: 1.4em;
+}
+.current a
+{
+	font-weight: bold;
+}
+.current a, header a:hover
+{
+	border-bottom: 1px #000 solid;
+	padding-bottom: 5px;
+}
+header ul
+{
+	display: flex;
+	list-style: none;
+	padding: 0;
+
+}
+
+header li
+{
+	margin: 0 25px;
+
+}
+
+nav
+{
+	margin: auto 20px;
+}
+#branding h1
+{
+	font-family:  'Playfair Display', Helvetica, sans-serif, Arial;
+	letter-spacing: 0.3em;
+}
+
+/* --------------------------- */
+
+/* Showcase */
+
+#showcase
+{
+	min-height: 450px;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	background-image: url('../images/background.jpg');
+	height: 450px;
+}
+
+#showcase h1
+{
+	font-size: 4em;
+	padding-bottom: 20px;
+	font-weight: 900;
+}
+
+#showcase p
+{
+	font-size: 2.5em;
+	font-style: italic;
+}
+
+/* --------------------------- */
+
+/* Newsletter */
+
+#newsletter .container
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+#newsletter h1, #location h2
+{
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+#newsletter input[type="email"]
+{
+	width: 60%;
+	padding: 10px;
+	height: 40px;
+	margin-right: 20px;
+	font-size: 1em;
+	border: 1.5px solid #000;
+	vertical-align: bottom; /* aligned with the lowest element in the div */
+}
+
+/* --------------------------- */
+
+/* Boxes head */
+
+.boxes-head
+{
+	text-align: center;
+	font-size: 1.3em;
+	color: #fff;
+	background: #000;
+	padding: 10px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.boxes-head h1
+{
+	margin: 0;
+}
+/* --------------------------- */
+
+/* Boxes */
+
+#boxes
+{
+	height: 420px;
+	padding-top: 70px;
+}
+#boxes .container
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.container .box
+{
+	text-align: center;
+	color: #333;
+}
+
+#boxes img
+{
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.box p
+{
+	color: #333;
+}
+
+/* --------------------------- */
+
+/* Footer */
+
+footer
+{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: #fff;
+	background: #222;
+}
+
+#about
+{
+	height: 450px;
+	color: #fff;
+	padding-top: 20px;
+	background: url('../images/flora.jpg');
+}
+
+#about h1
+{
+	font-size: 2.4em;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+	border-bottom: 2px solid #fff;
+}
+
+#about p
+{
+	font-size: 1.4em;
+	padding-bottom: 50px;
+}
+
+#leadership header
+{
+	margin-bottom: 100px;
+}
+.founders
+{
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.founders div
+{
+	flex-basis: 40%;
+	text-align: center;
+}
+
+.founders img
+{
+	display: block;
+	margin: 20px auto;
+	width: 40%;
+}
+
+.founders small
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #444;
+}
+.founder p
+{
+	font-size: 1.2em;
+	color: #888;
+}
+
+#real-location
+{
+	position: relative;
+	text-align: center;
+}
+#location p
+{
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 33%;
+	padding-bottom: 50px;
+}
+
+#real-location img
+{
+	width: 4%;
+	margin-right: 5px;
+}
+
+#real-location aside
+{
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
